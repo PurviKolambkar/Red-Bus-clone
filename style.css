@@ -1,0 +1,165 @@
+:root{
+    --grey: rgb(246, 244, 239);
+}
+
+
+img{
+    width: 80px;
+    height: 80px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header{
+    display: grid;
+    width: 100%;
+    height: 400px; 
+    background-image: url(https://img.freepik.com/premium-photo/red-bus-with-number-1-it_551707-7165.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+#Search-btn{
+    background-color: red;
+    color: white;
+}
+ 
+.government-bus{
+    display: flex;
+    justify-content: space-between;
+}
+
+.SRTC{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 10px;
+}
+
+.govt-logo{
+    width: 30px;
+    height: 30px;
+}
+
+.APRSTC{
+    background-color: var(--grey);
+    border-radius: 10px;
+    align-items: center;
+}
+
+.TSRTC{
+    background-color: var(--grey);
+    border-radius: 10px;
+}
+
+.SBSTC{
+    background-color: var(--grey);
+    border-radius: 10px;
+}
+
+#viewbtn{
+    border-radius: 40%;
+    border: 0.5px solid black;
+    color: blue;
+    width: 100px;
+    height: 50px;   
+}
+
+.trending-offers{
+    display: flex;
+    justify-content: space-between;
+}
+
+.coupons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2px;
+}
+
+.button{
+    border: 1px dashed;
+    align-self: center;
+}
+
+#first{
+    background: linear-gradient(to bottom, #ff0000, #ff6666 );
+    color: white ;
+    width: 450px;
+}
+
+#superhit{
+    background: linear-gradient(to right, #0000ff, #00ffff);
+    color: white ;
+    width: 450px;
+}
+
+#icici{
+    background: linear-gradient(to bottom, #008000, #00ff00);
+    color:white ;
+    width: 450px;
+}
+
+#bus{
+    border: 1px solid white;
+    width: 45px;
+    padding: 2px;
+    margin:20px;
+    align-items: center;
+}
+
+.redRail{
+    display: flex;
+    border-bottom: 3px solid red;
+}
+
+#features-redrail{
+    display: grid;
+    gap: 10px;
+}
+
+.redRail-main{
+    display: flex;
+    background-color: var(--grey);
+    border-radius: 10px;
+}
+.train-ticket-btn{
+    background-color: red;
+    color: white;
+    margin: 10px;
+}
+
+.train-img{
+    width: 600px;
+    height: 300px;
+    padding: 50px;
+}
+
+.flag-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;  
+}
+
+.flag{
+    border: 1px solid white;
+    border-radius: 50%; 
+    box-shadow: 1px 1px 10px ;
+}
+
+.country{
+    display: grid;
+}
+
+footer{
+    display: flex;
+    justify-content: space-evenly;
+}
+
